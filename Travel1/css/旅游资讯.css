@@ -1,0 +1,191 @@
+.list{
+    width:910px;
+    height: 45px;
+    background-color: #eee;
+    border-left: 1px solid #d6d6d6;
+}
+.oldstyle1{
+    background-color: white;
+    border-top: 2px solid #458b00;
+}
+.right .oldstyle2 a{
+    background-color:#458B00;
+    color:white;
+}
+#container .left{
+    float:left;
+}
+.left li a{
+    width:100px;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+}
+.left li a:hover{
+    border-top:2px solid #458B00;
+    background-color: white;
+    color:black;
+}
+#container .right{
+    float:right;
+}
+.right a{
+    display: inline-block;
+    width:40px;
+    height:25px;
+    line-height: 25px;
+    text-align: center;
+    margin:10px 10px;
+    padding:0;
+    color:black;
+}
+.right a:hover{
+    background-color:#458B00;
+    color:white;
+}
+#show_1{
+    margin-top:20px;
+    width:910px;
+}
+#show_2{
+    margin-top:20px;
+    width:910px;
+}
+.tour{
+    border:1px solid #eee;
+    padding:4px;
+    position: relative;
+}
+#container .dis {
+    position: absolute;
+    right:0;
+    top:0;
+}
+#container .dis1 {
+    position: absolute;
+    right:0;
+    top:5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#container .dis1 p{
+    font-size:12px;
+    font-weight: 100;
+}
+.tour img{
+	display:inline-block;
+    float: left;
+}
+.tour figcaption{
+    /*padding:10px;*/
+   margin-left:10px;
+    width:500px;
+    position: relative;
+    height:220px;
+}
+.tour header{
+    width:300px;
+}
+.tour footer{
+    position: absolute;
+    bottom:0;
+}
+.tour article{
+    width:490px;
+
+}
+.tour ol li{
+    list-style: none;
+    line-height: 35px;
+}
+.tour ol li mark{
+    background-color: white;
+    color:#458b00;
+    border:1px solid #458b00;
+    border-radius:4px;
+    padding:0 8px;
+}
+.tour ol li h3{
+    display: inline-block;
+    line-height:15px;
+}
+.tour ol{
+    margin-top:30px;
+}
+.tour h2{
+    color:#333333;
+}
+.tour h3{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height:30px;
+    color:#666;
+}
+.tour Header{
+    background-color: white;
+
+}
+#container .buy{
+    float:right;
+    position: absolute;
+    top:60px;
+    right:40px;
+}
+#container .buy p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#container .buy strong{
+    font-size: 36px;
+}
+#container .buy s{
+    color:#999;
+}
+#container .buy .reserve a{
+    background-color:#ff6600;
+    color:white;
+    text-decoration: none;
+    display: block;
+    width:150px;
+    height:40px;
+    margin-top:10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius:5px;
+    font-size:20px;
+    /*padding:5px 10px;*/
+}
+#container figure{
+    margin:10px 0;
+}
+
+/*article span{*/
+    /*font-size: 24px;*/
+    /*display: block;*/
+    /*font-weight: 800;*/
+    /*margin-bottom: 20px;*/
+/*}*/
+/*.a_middle{*/
+    /*float: left;*/
+    /*margin-top: 20px;*/
+    /*width:300px;*/
+    /*padding-left:20px;*/
+/*}*/
+
+/*.a_right p{*/
+    /*font-size: 40px;*/
+    /*margin-top:50px;*/
+    /*!*vertical-align: middle;*!*/
+/*}*/
+/*.a_right s{*/
+    /*color:#666;*/
+/*}*/
+/*.a_right input{*/
+    /*background-color: #FF6600;*/
+/*}*/

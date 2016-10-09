@@ -1,0 +1,47 @@
+.content{
+    width:910px;
+}
+
+.content h2{
+    border-bottom: 1px dashed #999;
+    border-radius:4px;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.picture{
+    border:1px solid #eee;
+    margin:10px 5px 10px 0;
+    width:435px;
+    padding:4px;
+    display: inline-block;
+}
+.picture img{
+    display: block;
+    width:435px;
+    height:280px;
+
+}
+.picture figcaption{
+    width:435px;
+    text-align: center;
+    line-height:30px;
+    color:#999;
+}
+a.aa{
+    background-color: #fafafa;
+    display: block;
+    width:150px;
+    height:45px;
+    border:1px solid #d6d6d6;
+    line-height:45px;
+    text-align: center;
+    margin:6px 375px;
+    color:#666;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    text-decoration: none;
+
+    /*position: relative;*/
+    /*margin-left:-100px;*/
+}

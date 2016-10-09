@@ -1,0 +1,121 @@
+.content{
+    width:910px;
+}
+.content h2{
+    border-bottom: 1px dashed #999;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.content p{
+    color:#999;
+    margin-top:20px;
+    line-height: 20px;
+    font-size: 20px;
+    display: block;
+}
+.content section{
+    margin-bottom: 50px;
+}
+.style{
+    background-color: #458b00;
+    color:white;
+}
+#yuding a{
+    color:#999;
+    margin:0 10px;
+    text-decoration: none;
+    padding:5px;
+    border-radius:4px;
+}
+#yuding a:first-child{
+    margin-left:20px;
+}
+#yuding a:hover{
+    background-color: #458b00;
+    color:white;
+}
+#yuding input{
+    width:240px;
+    height:40px;
+    margin:0 30px 0 20px;
+    border:1px solid #d6d6d6;
+    border-radius:5px;
+    padding-left:3px;
+    outline: none;
+}
+#yuding .content_right a{
+    background-color: #ff6600;
+    color:white;
+    float:right;
+    width:100px;
+    height:80px;
+    text-align: center;
+    line-height:80px;
+    font-size:20px;
+    position: relative;
+    top:-90px;
+}
+#new a{
+    color:#999;
+    margin:0 10px;
+    text-decoration: none;
+    padding:5px;
+    border-radius:4px;
+}
+#new a:hover{
+    background-color: #458b00;
+    color:white;
+}
+#new table{
+    margin-top:30px;
+    width:910px;
+    height:550px;
+    border:1px solid #ddd;
+    padding:0;
+}
+/*#new table th{*/
+    /*line-height:50px;*/
+/*}*/
+#new table tr{
+    display: inline-block;
+    border-bottom:1px solid #ddd;
+    width:910px;
+    height:50px;
+    line-height:50px;
+}
+#new table tr th{
+    display: inline-block;
+    text-align: center;
+    width:110px;
+    color:#6b6b6b;
+    font-weight: 900;
+}
+#new table tr th:nth-child(1),th:nth-child(6),th:nth-child(7){
+    width:210px;
+}
+#new table tr td{
+    display: inline-block;
+    text-align: center;
+    width:110px;
+    color:#6b6b6b;
+    font-weight:500;
+}
+#new table tr td:nth-child(1),td:nth-child(6),td:nth-child(7){
+    width:210px;
+}
+
+#new table tr:nth-child(odd){
+    background-color: #fafafa;
+}
+#new table tr:last-child{
+    text-align: center;
+    border-bottom: none;
+}
+#new table a{
+    color:white;
+    background-color: #ff6600;
+    margin:0 10px;
+    text-decoration: none;
+    padding:5px;
+    border-radius:4px;
+}
