@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>东苑中科</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/new_file.js"></script>
+		<script type="text/javascript" src="js/ss.js"></script>	
+		<!--<script type="text/javascript">
+function DY_scroll(wraper,prev,next,img,speed,or)
+ { 
+  var wraper = $(banner);
+var prev = $(prev);
+var next = $(next);
+  var img = $(img).find('ul');
+  var w = img.find('li').outerWidth(true);
+  var s = speed;
+next.click(function()
+       {
+        img.animate({'margin-left':-w},function()
+                  {
+                   img.find('li').eq(0).appendTo(img);
+                   img.css({'margin-left':0});
+                   });
+        });
+prev.click(function()
+       {
+        img.find('li:last').prependTo(img);
+        img.css({'margin-left':-w});
+        img.animate({'margin-left':0});
+        });
+  if (or == true)
+  {
+   ad = setInterval(function() { next.click();},s*1000);
+   wraper.hover(function(){clearInterval(ad);},function(){ad = setInterval(function() { next.click();},s*1000);});
+
+  }
+ }
+ 
+ 
+ 
+		</script>-->
+	</head>
+	<body>
+		<div class="top"></div>
+		<div class="logo-top"><img src="img/logo_top.png">
+			<div class="link_top">
+				<ul>
+					<li><a href="#">设为首页</a></li>
+					<li><a href="#">加入收藏</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+				<img src="img/phone.png" /><p style="float: left;">024-25126100<br>18940190377</p>
+			</div>
+		</div>
+		<!--导航条-->
+		<div class="nav">
+			<ul>
+				<li class="nav_style"><a href="#"  style="color: white;">首页</a></li>
+				<li><a  href="#">公司介绍</a></li>
+				<li><a href="#">品牌文化</a></li>
+				<li><a href="#">产品服务</a></li>
+				<li><a href="#">资质荣誉</a></li>
+				<li><a href="#">工程案例</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		<div class="banner" id="banner">
+			<embed src="img/banner_top.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" name="obj2" width="100%" height="410" quality="High">
+		</div>
+		<!--产品服务-->
+		<div class="pro">
+			<img src="img/pro_ser.png">
+		</div>
+		<!--除尘系统、脱硫系统、脱硝系统、水处理系统-->
+		<div id="system" class="system">
+			<div id="ulstyle" class="ulstyle">
+			<ul > 
+				<li  class="tuchu-style" id="bt1"><a  style="cursor:pointer" ><img src="img/system1.png"  >除尘系统</a></li>
+				<li  id="bt2"><a style="cursor:pointer"><img src="img/system2.png"  >脱硫系统</a></li>
+				<li id="bt3"><a style="cursor:pointer"><img src="img/system3.png"  >脱硝系统</a></li>
+				<li  id="bt4"><a style="cursor:pointer"><img src="img/system4.png"  >水处理系统</a></li>
+			</ul>
+			</div>
+			<!--tab切换显示内容-->
+			<div id="show" class="show">
+			<div class="show_1" style="display: block;" id="show_1">
+				<table>
+				<tr>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-1.png" >
+						<p>低压脉冲布袋除尘器<input type="button" value="More" /></p>
+						<span>LOW PULSE BAG FILTER</span>
+					</td>
+					<td class=" show-img" style="	background-color:#f6f6f6;"><img src="img/system_tab1-2.png">
+						<p>气箱脉冲布袋除尘器<input type="button" value="More" /></p>
+						<span>AIR BOX PULSE BAG FILTER</span>
+					</td>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-3.png" >
+						<p>静电除尘技术<input type="button" value="More" /></p>
+						<span>ELECTROSTATIC TECHNOLOGY</span>
+					</td>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-4.png">
+						<p>反吹袋式除尘器<input type="button" value="More" /></p>
+						<span>CLEANING BAG FILTER</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+			<div class="show_2" id="show_2" style="display: none;text-align: center;">
+				<table>
+				<tr>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-1.png" >
+						<p>低压脉冲布袋除尘器<input type="button" value="More" /></p>
+						<span>LOW PULSE BAG FILTER</span>
+					</td>
+					<td class=" show-img" style="	background-color:#f6f6f6;"><img src="img/system_tab1-1.png">
+						<p>气箱脉冲布袋除尘器<input type="button" value="More" /></p>
+						<span>AIR BOX PULSE BAG FILTER</span>
+					</td>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-1.png" >
+						<p>静电除尘技术<input type="button" value="More" /></p>
+						<span>ELECTROSTATIC TECHNOLOGY</span>
+					</td>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-1.png">
+						<p>反吹袋式除尘器<input type="button" value="More" /></p>
+						<span>CLEANING BAG FILTER</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+			<div class="show_3" id="show_3" style="display: none;text-align: center;">
+				<table>
+				<tr>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-2.png" >
+						<p>低压脉冲布袋除尘器<input type="button" value="More" /></p>
+						<span>LOW PULSE BAG FILTER</span>
+					</td>
+					<td class=" show-img" style="	background-color:#f6f6f6;"><img src="img/system_tab1-2.png">
+						<p>气箱脉冲布袋除尘器<input type="button" value="More" /></p>
+						<span>AIR BOX PULSE BAG FILTER</span>
+					</td>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-2.png" >
+						<p>静电除尘技术<input type="button" value="More" /></p>
+						<span>ELECTROSTATIC TECHNOLOGY</span>
+					</td>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-2.png">
+						<p>反吹袋式除尘器<input type="button" value="More" /></p>
+						<span>CLEANING BAG FILTER</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+			<div class="show_4" id="show_4" style="display: none;text-align: center;">
+				<table>
+				<tr>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-3.png" >
+						<p>低压脉冲布袋除尘器<input type="button" value="More" /></p>
+						<span>LOW PULSE BAG FILTER</span>
+					</td>
+					<td class=" show-img" style="	background-color:#f6f6f6;"><img src="img/system_tab1-3.png">
+						<p>气箱脉冲布袋除尘器<input type="button" value="More" /></p>
+						<span>AIR BOX PULSE BAG FILTER</span>
+					</td>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-3.png" >
+						<p>静电除尘技术<input type="button" value="More" /></p>
+						<span>ELECTROSTATIC TECHNOLOGY</span>
+					</td>
+					<td style="	background-color:#f6f6f6;"><img src="img/system_tab1-3.png">
+						<p>反吹袋式除尘器<input type="button" value="More" /></p>
+						<span>CLEANING BAG FILTER</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+			</div>
+		</div>
+		<!--公司介绍-->
+		<div class="company"><img src="img/companytilte.png" style="position:absolute;left:250px;top: 50px;">
+			
+			
+			
+			<!--文字渐变-->
+			<div class="text"><p id="text1" class="p" >沈阳东苑中科环境工程有限公司成立于2007年，位于沈阳市.皇姑区.永强工业园区内。
+			主要从事大气污染及污废水设备的产品生产，工程设计、工程建设、技术研发、安装调试、运营管理于一体的环保公司。<br>
+				公司拥有一支由众多长期从事环保行业的资深专家组成的专业化技术团队，在工业烟气治理除尘、脱硫、脱销工程，生活污水处理工程，中水回用工程，等领域拥有丰富的技术施工经验。<br>
+				沈阳东苑中科环境工程有限公司本着“诚信为本，质量第一”的原则，凭借多年的行业经验和良好的信誉，为建设低碳环保可持续发展目标的实现而努力奋斗	……
+				<input type="button" value="More" />
+			</p>
+				<p id="text2" class="p" style="display:none">东苑中科为改善人们的工作、生活环境质量，为人与环境和谐共处贡献全部的力量.在工业烟气治理除尘、脱硫、脱销工程，生活污水处理工程，中水回用工程，等领域拥有丰富的技术施工经验。
+				<input type="button" value="More" /></p>
+				<p id="text3" class="p" style="display:none">东苑中科立志于为客户提供专业的环境工程、防腐工程治理方案，节省客户施工成本，把最先进的技术、最专业的设计、最成熟的产品
+						和最完善的服务提供给用户。<input type="button" value="More" /></p>
+				<p id="text4" class="p"style="display:none">东苑中科为改善人们的工作、生活环境质量，为人与环境和谐共处贡献全部的力量.
+				东苑中科立志于为客户提供专业的环境工程、防腐工程治理方案，节省客户施工成本，把最先进的技术、最专业的设计、最成熟的产品
+						和最完善的服务提供给用户。<input type="button" value="More" /></p>
+				<img  src="img/companyc1.png" id="img1" style="cursor:pointer;margin-left: 70px;">
+				<img src="img/companyc2.png" id="img2" style="cursor:pointer">
+					<img src="img/companyc3.png" id="img3" style="cursor:pointer">
+				<img src="img/companyc4.png" id="img4" style="cursor:pointer">
+			</div>
+			<img src="img/companybk.png">
+			
+		</div>
+		<div class="green"><img src="img/green.png"></div>
+		
+		
+		
+		
+		
+		<!--伸缩效果-->
+		<div class="ss">
+			<div class="ss_left"></div>
+			<div id="ss-a" class="ss-a"><a  id="a1" style="cursor:pointer"><img src="img/ss-A.png"></a>
+				<a  id="a2" style="cursor:pointer"><img src="img/ss-B.png"></a>
+					<a  id="a3" style="cursor:pointer"><img src="img/ss-C.png"></a>
+						<a  id="a4" style="cursor:pointer"><img src="img/ss-B.png"></a>
+			</div>
+			<table id="ss-p" class="ss-p">
+				<tr>
+					<td></td>
+					<td><img src="img/ss-guding1.png">
+						<p id="p1" style="display:none ;">公司拥有一支由众多长期从事环保行业的资深专家组成的专业化技术团队，
+						在工业烟气治理除尘、脱硫、脱销工程，生活污水处理工程，中水回用工程，等领域拥有丰富的技术施工经验。</p>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="img/ss-guding2.png" style="margin-left:130px;">
+						<p id="p2" style="display:none ;margin-right:65px;">东苑中科为改善人们的工作、生活环境质量，为人与环境和谐共处贡献全部的力量</p>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><img src="img/ss-guding3.png">
+						<p id="p3" style="display:none ;">沈阳东苑中科环境工程有限公司本着“诚信为本，质量第一”的原则，
+						凭借多年的行业经验和良好的信誉，为建设低碳环保可持续发展目标的实现而努力奋斗！</p>
+					</td>
+				</tr>
+				<tr style="height: 170px;">
+					<td><img src="img/ss-guding4.png" style="margin-left:130px;">
+						<p id="p4" style="display:none ;margin-right:65px;">东苑中科立志于为客户提供专业的环境工程、防腐工程治理方案，节省客户施工成本，把最先进的技术、最专业的设计、最成熟的产品
+						和最完善的服务提供给用户。</p>
+					</td>
+					<td></td>
+				</tr>
+			</table>
+			<img src="img/ss-bottom.png" style="position: absolute;left:410px;top: 630px;">
+		</div>
+		<div class="anli">
+			<div class="anli-top"><img src="img/company_anli.png" ></div>
+			<table class="anli_table">
+				<tr><td style="width:590px;height:220px;"><img src="img/td1.png">
+					<ol>
+						<li>黑山县供暖有限公司（脉冲布袋除尘器）</li>
+						<li>葫芦岛锌厂（低压脉冲布袋除尘器）</li>
+						<li>抚顺页岩炼油厂（脉冲布袋除尘器）</li>
+						<li>内蒙古霍煤双兴煤气化有限责任公司（布袋除尘器）</li>
+						<li>驻扎们乌德总领馆（脉冲布袋除尘器）</li>
+						<li>虎石台热电（布袋除尘器）</li>
+						<li>沈海热电厂（脉冲布袋除尘器）</li>
+						<li>沈阳华瑞供热烟气治理维修改造工程（2x65t）</li>
+						<li>集安铁合金（大布袋脉冲除尘器）</li>
+						<li>铁岭水泥厂（脉冲布袋除尘器）</li>
+					</ol>
+				</td>
+					<td rowspan="2" style="width:400px;border-image: -webkit-radial-gradient( #f3f3f3,#cecdc9,#f3f3f3)5;">
+						<img src="img/td3.png">
+						<ol style="top:150px;left:40px;">
+						<li>沈阳华瑞供暖公司2x65t/h锅炉烟气脱硫工程；</li>
+						<li>铁西区滑翔一号热源厂3x64MW、4x29MW锅炉烟气脱硫工程；</li>
+						<li>铁西区滑翔二号热源厂2x29MW锅炉烟气脱硫工程；</li>
+						<li>铁西区滑翔三号热源厂4x29MW锅炉烟气脱硫工程；</li>
+						<li>铁西区郭家热源厂3x64MW、4x29MW锅炉烟气脱硫工程；</li>
+						<li>沈阳鑫和供暖有限公司1x40t/h锅炉烟气脱硫工程；</li>
+						<li>沈阳望花啤酒厂1x35t/h锅炉烟气脱硫工程；</li>
+						<li>苏家屯铁路客运段2x20t/h（1塔）烟气脱硫工程；</li>
+						<li>辽宁千喜鹊食品有限公司2x20t/h锅炉烟气脱硫工程；</li>
+						<li>苏家屯精密钢管厂5x2万Nm3煤制气脱硫工程；</li>
+						</ol>
+						<img src="img/company_anli_bottom.png" style="top:350px;left:20px">
+					</td></tr>
+				<tr><td class="td2" style="width:590px;height:220px;"><img src="img/td2.png">
+					<ol style="top:30px;">
+						<li>伊利集团金海乳业有限公司污水处理工程</li>
+						<li>内蒙古霍煤通顺碳素有限公司恩德炉循环废水处理工程</li>
+						<li>沈阳耘垦有限公司屠宰废水处理工程</li>
+						<li>沈阳市昊明肉禽加工厂屠宰废水处理工程</li>
+						<li>沈阳市和达肉禽加工厂屠宰废水处理工程</li>
+						<li>禾丰牧业污水处理工程</li>
+						<li>辽宁翰博食品有限公司屠宰废水处理工程</li>
+						<li>沈阳可济药业有限公司工艺废水处理工程</li>
+					</ol>
+				</td></tr>
+			</table>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="#" style="margin-left: 40px;">首页</a></li>
+				<li><a  href="#" >公司介绍</a></li>
+				<li><a href="#">品牌文化</a></li>
+				<li><a href="#">产品服务</a></li>
+				<li><a href="#">资质荣誉</a></li>
+				<li><a href="#">工程案例</a></li>
+				<li><a href="#" style="border-right:hidden">联系我们</a></li>
+			</ul>
+		</div>
+		<div class="bottom">
+			<p>版权所有：沈阳东苑中科环境工程有限公司  Copyright 2016 www.sydyzk.com</p>
+			<img src="img/logo-bottom.png">
+		</div>
+	</body>
+</html>
