@@ -1,0 +1,139 @@
+body,ul,li{margin: 0 auto;padding: 0;width: 1220px;font-family: "微软雅黑";}
+body{
+     background-color: #f3f0e7;
+}
+ul,li{list-style: none;}
+a{text-decoration: none;color: #000;}
+
+.top{width: 100%;height: 110px; }
+.logo{width: 100%; height: 80px;}
+.logo_left{
+    width:600px;
+    height:60px;
+    float: left;
+    margin-left:50px;
+    margin-top: 20px;
+}
+.logo_left span{
+    font-size: 14px;
+    line-height: 18px;
+    color:brown;
+}
+.logo_left a{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color:brown;
+}
+.logo_left img{
+    margin:2px 5px 0px 10px;
+}
+.logo input{
+    float:right;
+    border:1px solid burlywood;
+    padding-right: 50px;
+    margin-top: 30px;
+
+    width:180px;
+    height:23px;
+    margin-bottom: 20px;
+    background-repeat:no-repeat;
+    background-position: right center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.mainmenu{width: 100%; height: 30px;float: left; background-image:url(img/menu_bk.png);}
+.all{float: left;margin-left: 150px;}
+.mainmenu ul{margin-left:300px ;margin: 0;}
+.mainmenu ul li{float: left;width: 140px;height: 30px;text-align: center;margin: 0;}
+.mainmenu  a{line-height: 30px;color: peru;font-size: 14px;font-weight: bold;}
+.mainmenu a:hover{
+    color:brown;
+    font-weight: bold;
+}
+#banner{width: 1220px; height: 390px;  overflow: hidden; position: relative;}
+#list { width: 7320px; height: 390px; position: absolute; z-index: 1;}
+#list img { float: left;}
+#buttons { position: absolute; height: 10px; width: 100px; z-index: 2; bottom: 20px; left: 560px;}
+#buttons span {
+    cursor: pointer;
+    float: left;
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #333;
+    margin-right: 1px;
+}
+#buttons .on {  background: #b21c33;}
+.arrow {
+    cursor: pointer;
+    display: none;
+    line-height: 39px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+}
+.arrow:hover {
+    background-color: rgba(0,0,0,0.7);
+}
+#banner:hover .arrow {
+    display: block;
+}
+#prev { left: 20px;}
+#next { right: 20px;}
+.mid{width: 980px;margin: 20px auto;}
+.report{width: 100%;height: 30px;background-image: url(img/report_bk.png);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;}
+
+.report span{
+    color: crimson;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.text_left{
+    width:880px;
+    margin-left: 100px;
+    margin-top: -46px;
+    float: left;
+    height:30px;
+    clear: both;
+}
+.text_left p{
+    clear: both;
+    color: crimson;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.kinds{width: 100%;height: 190px;margin-top: 10px; }
+.kinds img{
+    margin-left: 4px;
+}
+.menu{width: 100%;height: 30px;background-color: burlywood;}
+.pic{width: 100%;height: 430px;margin-top: 20px;background-color: lightblue;}
+.poster-main{position:relative;width: 100%;height: 400px; margin-top:-30px;padding: 80px 0 80px 0;}
+.poster-main a,.poster-main img{display:block;}
+.poster-main .poster-list{width:620px;height:400px;position: absolute;}
+.poster-main .poster-list .poster-item{ position:absolute;left:0;bottom:0;}
+.poster-main .poster-btn{ position:absolute;top:0;width:100px;height:400px; z-index:10; cursor:pointer;  opacity:0.9}
+.poster-main .poster-prev-btn{top:100px;left:-30px; background: url(img/btn_l.png) no-repeat center center;}
+.poster-main .poster-next-btn{top:100px;right:-80px; background: url(img/btn_r.png) no-repeat center center;}
+
+.bottom{width: 100%;height: 220px; margin-top: 20px;background-color: gainsboro;}
+.bottom_1{width: 100%;height: 180px;margin-top: 20px; background-color: lightblue;}
+.footer{width: 100%;height: 200px;background-color: gainsboro;}
