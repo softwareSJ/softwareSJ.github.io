@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+	font-family: 微软雅黑, 'Lucida Grande', Arial;
+}
+.warp{
+	width: 100%;
+	background-color: #EEEEEE;
+}
+.head2 {
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	color: #333333;
+}
+.head2 ul{
+	width: 1000px;
+}
+.head2 ul li {
+	display: block;
+	float: left;
+	margin-left: 30px;
+}
+
+.head2 ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+.head2 ul li a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+.head2 ul li img {
+	padding-top: 23px;
+	padding-left: 10px;
+}
+.content{
+	width: 1000px;
+	background-color: white;
+	border-top:1px solid #333333 ;
+}
+.content_top{
+	height: 100px;
+	border-bottom:1px solid gainsboro ;
+		color: ##2d2d2d;
+	letter-spacing: 2px;
+	font-size: 22px;
+	line-height: 100px;
+
+}
+.content_mid{
+	width: 950px;
+	margin-top: 25px;
+	padding-bottom: 25px;
+	color: #333;
+}
+.content_mid p{
+	text-indent: 1cm;
+	line-height: 22px;
+	font-size: 14px;
+	
+}
+.content_mid h5{
+	line-height: 30px; 
+	padding-top: 20px;
+}
+.content_mid p a {
+	color: #2020FF;
+	text-decoration: none;
+}
+.content_bottom{
+	width: 1000px;
+	/*background-color: aqua;*/
+	padding-bottom: 30px;
+}
+.content_bottom button{
+	height: 30px;
+	width: 150px;
+	cursor: pointer;
+	display: block;
+	}
+.content_bottom button a{
+	text-decoration: none;
+	color: #000000;
+}
+.content_bottom button a:active
+{
+	color: black;
+	
+}
