@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网站首页</title>
+		<link rel="stylesheet" type="text/css" href="../css/网站首页.css"/>
+		<script type="text/javascript" src="../js/myfocus-2.0.1.min.js"></script>
+		<script type="text/javascript">
+		//设置
+		myFocus.set({
+			id:'myFocus',//ID
+			pattern:'mF_fancy'//风格
+		});
+		</script>
+	</head>
+	<body>
+		<div id="wrap">
+		</div>
+		<div id="logo">
+			<a href="javascript:;"><img src="../img/品牌文化/logotop.jpg"/></a>
+
+		</div>
+		<div id="nav">
+			<ul>
+		        <li class="oldstyle"><a href="网站首页.html" style="color:white">网站首页</a> </li>
+		        <li><a href="品牌新闻.html">品牌新闻</a> </li>
+		        <li><a href="品牌文化.html">品牌文化</a> </li>
+		        <li><a href="产品系列.html">产品系列</a></li>
+		        <li><a href="我们的服务.html">我们的服务</a></li>
+		        <li><a href="实体连锁店.html">实体连锁店</a></li>
+		        <li><a href="合作伙伴.html">合作伙伴</a></li>
+		        <li><a href="享·爱行动.html">享·爱行动</a></li>
+		        <li><a href="束氏商城.html">束氏商城</a></li>
+				<li><a href="login.html"> login</a></li>
+		    </ul>
+		</div>
+		<div id="myFocus">
+			<div class="loading"><img src="../img/loading.gif" alt="请稍候..." /></div><!--载入画面(可删除)-->
+			<div class="pic"><!--图片列表-->
+			  	<ul>
+			        <li><a href="javascript:;"><img src="../img/焦点图/业道.png" style="width:1530px;" thumb="" alt="" text="图片1更详细的描述文字" /></a></li>
+			        <li><a href="javascript:;"><img src="../img/焦点图/茶道.png" style="width:1530px;" thumb="" alt="" text="图片2更详细的描述文字" /></a></li>
+			        <li><a href="javascript:;"><img src="../img/焦点图/佛道.png" style="width:1530px;" thumb="" alt="" text="图片3更详细的描述文字" /></a></li>
+			        <li><a href="javascript:;"><img src="../img/焦点图/华道.png" style="width:1530px;" thumb="" alt="" text="图片4更详细的描述文字" /></a></li>
+			        <li><a href="javascript:;"><img src="../img/焦点图/香道.png" style="width:1530px;" thumb="" alt="" text="图片5更详细的描述文字" /></a></li>
+			  	</ul>
+			</div>
+		</div>
+		<div id="body1">
+			<img src="../img/品牌故事/1.jpg"/>
+			<img src="../img/品牌故事/2.jpg" />
+			<div id="body1-1">
+				<a href="javascript:;"><img src="../img/品牌故事/3.jpg"/></a>
+			</div>
+		</div>
+		<div id="body2">
+			<img src="../img/产品系列/1.jpg"/>
+			<script type="text/javascript">
+				function changeImage1(){
+					element=document.getElementById('myimage1')
+					if(element.src.match(2)){
+						element.src="../img/产品系列/5.png";
+					}else{
+						element.src="../img/产品系列/2.png";
+					}
+				}
+				function changeImage2(){
+					element=document.getElementById('myimage2')
+					if(element.src.match(3)){
+						element.src="../img/产品系列/6.png";
+					}else{
+						element.src="../img/产品系列/3.png";
+					}
+				}
+				function changeImage3(){
+					element=document.getElementById('myimage3')
+					if(element.src.match(4)){
+						element.src="../img/产品系列/7.png";
+					}else{
+						element.src="../img/产品系列/4.png";
+					}
+				}
+			</script>
+			<!--<script>
+				function changeImage()
+				{
+					element=document.getElementById('myimage')
+					if (element.src.match("2"))
+				 	{
+				  		element.src="../img/产品系列/5.png";
+				  	}
+					else
+				   {
+				  		element.src="../img/产品系列/2.png";
+				   }
+				}
+			</script>-->
+			<ul>
+				<li><a href="javascript:;"><img src="../img/产品系列/2.png" alt="" id="myimage1" onclick="changeImage1()"></a></img></li>
+				<li><a href="javascript:;"><img src="../img/产品系列/3.png" alt="" id="myimage2" onclick="changeImage2()"></a></img></li>
+				<li><a href="javascript:;"><img src="../img/产品系列/4.png" alt="" id="myimage3" onclick="changeImage3()"></a></img></li>
+			</ul>
+		</div>
+		<div id="body3">
+		    <img src="../img/企业动态/1.jpg"/>
+			<ul>
+				<li><img src="../img/企业动态/8.jpg" alt=""><a href="">
+							<h2>博施济众，仁善相融-束氏茶道携手国际狮子会共谱爱的主题曲</h2>
+							<p>2015年6月16日，来自国际公益慈善服务组织-国际狮子会会员及中国高端人脉平台正和岛岛亲为了表达对公益的执着...</p>
+						</a></img></li>
+				<li><img src="../img/企业动态/9.jpg" alt=""><a href="">
+							<h2>互联网时代，自媒体玩转时尚新潮流！</h2>
+							<p>企业需要新媒体运营高手，难以找到，怎么办？企业需要进行社会化营销，无人执行，怎么办？</p>
+						</a></img></li>
+				<li><img src="../img/企业动态/10.jpg" alt=""><a href="">
+							<h2>大爱之行-记自闭症儿童画展暨慈善义卖巡展第二站</h2>
+							<p>2015年6月9日起，“点亮星空-自闭症儿童画展暨慈善义卖”来到束氏茶道御桥会所，开启整场巡展第二站。</p>
+						</a></img></li>
+				<li><img src="../img/企业动态/11.jpg" alt=""><a href="">
+							<h2>缘于心灵的沟通-束氏堂受邀TOMIC百年英伦水具品牌课程直击</h2>
+							<p>束氏旗下茶道文化培训机构-束氏堂，受邀国内知名英伦水具百年品牌TOMIC，为其集团员工进行专业的茶道知识讲座及培训…</p>
+						</a></img></li>
+			</ul>
+			<div id="body1-1">
+				<a href="javascript:;"><img src="../img/品牌故事/3.jpg"/></a>
+			</div>
+		</div>
+		<div id="body4">
+			<img src="../img/实体连锁店/1.jpg"/>
+			<img src="../img/22.png" style="margin-left: 120px;"/>
+		</div>
+		<div class="nav_yi">
+			<img src="../img/合作伙伴/1.jpg"/>
+        <div class="nav_yi_top">
+            <img src="../img/合作伙伴/1-1.png" title="北京汉字听写大会">
+            <img src="../img/合作伙伴/1-2.png" title="财智论语">
+            <img src="../img/合作伙伴/1-3.png" title="央视网商城">
+            <img src="../img/合作伙伴/1-4.png" title="中国茶文化">
+            <img src="../img/合作伙伴/1-5.png" title="AMCHAM">
+            <img src="../img/合作伙伴/1-6.png" title="新沪商联合会">
+            <img src="../img/合作伙伴/1-7.png" title="CHINALUX">
+        </div>
+        <div class="nav_yi_middle">
+            <img src="../img/合作伙伴/2-1.png" title="合作伙伴">
+            <img src="../img/合作伙伴/2-2.png" title="合作伙伴">
+            <img src="../img/合作伙伴/2-3.png" title="UBIONCAMARE">
+            <img src="../img/合作伙伴/2-4.png" title="上海市商业企业管理">
+            <img src="../img/合作伙伴/2-5.png" title="合作伙伴">
+            <img src="../img/合作伙伴/2-6.png" title="中国民生银行">
+            <img src="../img/合作伙伴/2-7.png" title="大华银行">
+        </div>
+        <div class="nav_yi_bottom">
+            <img src="../img/合作伙伴/3-1.png" title="上海银行">
+            <img src="../img/合作伙伴/3-2.png" title="中国银行">
+            <img src="../img/合作伙伴/3-3.png" title="交通银行">
+            <img src="../img/合作伙伴/3-4.png" title="中国建设银行">
+            <img src="../img/合作伙伴/3-5.png" title="招商银行">
+        </div>
+    </div>
+		<!--<div id="body5">
+			<img src="../img/合作伙伴/1.jpg"/>
+			<ul>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_02.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_04.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_06.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_08.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_10.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_12.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_14.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_24.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_25.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_26.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_27.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_28.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_29.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_30.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_40.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_41.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_42.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_43.gif" alt="" /></a></li>
+				<li><a href=""><img src="../img/合作伙伴/images/未标题-1_44.gif" alt="" /></a></li>
+			</ul>
+		</div>-->
+		<div class="bottom">
+			<div class="bottom_a">
+				<img src="../img/品牌文化/logobottom.jpg">
+				<img src="../img/品牌文化/code.jpg" style="margin-top: 50px;">
+				<p><span style="font-size: 20px ">上海束氏茶道有限公司</span><br>
+					上海市浦东新区康杉路108弄3号5楼<br>
+					束氏官网:www.shushichadao.cn<br>
+					天猫旗舰店:shushijj.tmall.com<br>
+					京东旗舰店:shushi.jd.com<br>
+					全国咨询热线:4000-125-129</p>
+
+				<ul>
+					<li><a style="font-size: 14px;" href="">品牌文化</a></li>
+					<li><a href="">品牌介绍</a></li>
+					<li><a href="">创始人介绍</a></li>
+					<li><a href="">集团介绍</a></li>
+					<li><a href="">我们的团队</a></li>
+					<li><a href="">员工培训</a></li>
+					<li><a href="">办公环境</a></li>
+					<li><a href="">品牌荣誉</a></li>
+				</ul>
+				<ul>
+					<li><a style="font-size: 14px;" href="">产品系列</a></li>
+					<li><a href="">经典茶人</a></li>
+					<li><a href="">生活美学</a></li>
+					<li><a href="">禅意生活</a></li>
+					<li><a href="">茶道</a></li>
+					<li><a href="">香道</a></li>
+					<li><a href="">花道</a></li>
+					<li><a href="">佛道</a></li>
+					<li><a href="">礼道</a></li>
+				</ul>
+				<ul>
+					<li><a style="font-size: 14px;" href="">实体连锁店</a></li>
+					<li><a href="">福州会所店</a></li>
+					<li><a href="">沪太店</a></li>
+					<li><a href="">五角场店</a></li>
+					<li><a href="">云溪间会所</a></li>
+					<li><a href="">上海联洋广场旗舰店</a></li>
+					<li><a href="">上海八佰伴店</a></li>
+					<li><a href="">上海虹桥机场店</a></li>
+					<li><a href="">上海御桥店</a></li>
+				</ul>
+			</div>
+			<div class="bottom_b">
+				<p>
+					© 2014-2015 束氏茶道 版权所有
+					<a href="#">品牌合作/联系我们</a>
+					<a href="#">品牌加盟</a>
+					<a href="#">品牌招聘</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,128 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+/*.ati{
+	visibility:hidden;
+}*/
+span{
+	
+    color:red;
+    display:block;
+
+    width:300px;
+    line-height: 50px;
+    text-align: left;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Consolas;
+    color: #6b6b6b;
+}
+p{
+    font-size: 14px;
+    margin:10px 158px ;
+}
+h3{
+    margin-top: 70px;
+    float: right;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+.top{
+    width:100%;
+    background-color:white;
+    height:110px;
+    z-index: 1;
+    border-bottom:2px solid #7f5137 ;
+}
+.top img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.register{
+    width:980px;
+    height:800px;
+    margin:30px auto;
+
+}
+table{
+    width:400px;
+    float: left;
+    text-align: left;  
+    margin-top: 30px;
+
+}
+#count{
+	float: left;
+	font-size:14px;
+}
+input{
+    width:200px;
+    height:40px;
+    font-size: 12px;
+    color:#d6d6d6;
+}
+input:focus{
+	color:black;
+}
+tr{
+	line-height: 50px;
+}
+td{
+    width:100px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+em{
+	display:block;
+	float:left;
+	width:50px;
+	height:20px;
+	border:1px solid #919191;
+	
+}
+
+.active{
+	background-color:#7F5137;
+}
+tr.text td{
+    padding-left: 220px;
+    padding-top:50px;
+}
+tr.text input{
+    width:200px;
+    color:white;
+    margin:0 auto;
+    background-color: #7f5137;
+    font-size: 16px;
+}
+.mycode{
+	 display: inline-block;
+     width: 80px;
+     height: 40px;
+     vertical-align: middle;
+
+     border: 1px solid #7F5137;
+     
+}
+.code{
+    margin-left:750px;
+    width:400px;
+    height:600px;
+    background-image: url("../img/登录/phone.png");
+    background-repeat: no-repeat;
+}
+.code img{
+    margin-left:140px;
+    margin-top:180px;
+
+}
+

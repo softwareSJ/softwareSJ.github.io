@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="../css/login-style.css">
+    	
+</head>
+<body>
+<div class="top">
+    <img src="../img/登录/logotop.jpg"/>
+</div>
+
+<div class="login">
+    <h2>欢迎登录</h2>
+    <input id="img1" type="text" value="请输入用户名" name="username" onclick="if(value==defaultValue){value='';this.style.color='#000'}"   
+          onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999;background-image: url(../img/合作伙伴/input_user.png)">
+    <input id="img2" type="password" value="请输入密码" name="key" onclick="if(value==defaultValue){value='';this.style.color='#000'}"   
+          onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999;background-image: url(../img/合作伙伴/input_user.png)">
+    <table class="text">
+        <tr>
+            <td><input type="button" value="登录" name="login"  onclick="window.open('网站首页.html')"/></td>
+            <td><input type="button" value="注册" name="register" onclick="window.open('register.html')"/></td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>

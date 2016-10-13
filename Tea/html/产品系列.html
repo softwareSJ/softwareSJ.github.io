@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网站首页</title>
+		<link rel="stylesheet" type="text/css" href="../css/网站首页.css"/>
+		<script type="text/javascript" src="../js/myfocus-2.0.1.min.js"></script>
+		<script type="text/javascript">
+		//设置
+		myFocus.set({
+			id:'myFocus',//ID
+			pattern:'mF_fancy'//风格
+		});
+		</script>
+	</head>
+	<body>
+		<div id="wrap">
+		</div>
+		<div id="logo">
+			<a href="javascript:;"><img src="../img/品牌文化/logotop.jpg"/></a>
+
+		</div>
+		<div id="nav">
+			<ul>
+		        <li ><a href="网站首页.html" >网站首页</a> </li>
+		        <li><a href="品牌新闻.html">品牌新闻</a> </li>
+		        <li><a href="品牌文化.html">品牌文化</a> </li>
+		        <li class="oldstyle"><a href="产品系列.html" style="color:white">产品系列</a></li>
+		        <li><a href="我们的服务.html">我们的服务</a></li>
+		        <li><a href="实体连锁店.html">实体连锁店</a></li>
+		        <li><a href="合作伙伴.html">合作伙伴</a></li>
+		        <li><a href="享·爱行动.html">享·爱行动</a></li>
+		        <li><a href="束氏商城.html">束氏商城</a></li>
+				<li><a href="login.html"> login</a></li>
+		    </ul>
+		</div>
+		<div id="myFocus">
+			<div class="loading"><img src="../img/loading.gif" alt="请稍候..." /></div><!--载入画面(可删除)-->
+			<div class="pic"><!--图片列表-->
+			  	<ul>
+			        <li><a href="javascript:;"><img src="../img/焦点图/业道.png" style="width:1530px;" thumb="" alt="" text="图片1更详细的描述文字" /></a></li>
+			        <li><a href="javascript:;"><img src="../img/焦点图/茶道.png" style="width:1530px;" thumb="" alt="" text="图片2更详细的描述文字" /></a></li>
+			        <li><a href="javascript:;"><img src="../img/焦点图/佛道.png" style="width:1530px;" thumb="" alt="" text="图片3更详细的描述文字" /></a></li>
+			        <li><a href="javascript:;"><img src="../img/焦点图/华道.png" style="width:1530px;" thumb="" alt="" text="图片4更详细的描述文字" /></a></li>
+			        <li><a href="javascript:;"><img src="../img/焦点图/香道.png" style="width:1530px;" thumb="" alt="" text="图片5更详细的描述文字" /></a></li>
+			  	</ul>
+			</div>
+		</div>
+		
+		<div id="body2">
+			<img src="../img/产品系列/1.jpg"/>
+			<script type="text/javascript">
+				function changeImage1(){
+					element=document.getElementById('myimage1')
+					if(element.src.match(2)){
+						element.src="../img/产品系列/5.png";
+					}else{
+						element.src="../img/产品系列/2.png";
+					}
+				}
+				function changeImage2(){
+					element=document.getElementById('myimage2')
+					if(element.src.match(3)){
+						element.src="../img/产品系列/6.png";
+					}else{
+						element.src="../img/产品系列/3.png";
+					}
+				}
+				function changeImage3(){
+					element=document.getElementById('myimage3')
+					if(element.src.match(4)){
+						element.src="../img/产品系列/7.png";
+					}else{
+						element.src="../img/产品系列/4.png";
+					}
+				}
+			</script>
+			<!--<script>
+				function changeImage()
+				{
+					element=document.getElementById('myimage')
+					if (element.src.match("2"))
+				 	{
+				  		element.src="../img/产品系列/5.png";
+				  	}
+					else
+				   {
+				  		element.src="../img/产品系列/2.png";
+				   }
+				}
+			</script>-->
+			<ul>
+				<li><a href="javascript:;"><img src="../img/产品系列/2.png" alt="" id="myimage1" onclick="changeImage1()"></a></img></li>
+				<li><a href="javascript:;"><img src="../img/产品系列/3.png" alt="" id="myimage2" onclick="changeImage2()"></a></img></li>
+				<li><a href="javascript:;"><img src="../img/产品系列/4.png" alt="" id="myimage3" onclick="changeImage3()"></a></img></li>
+			</ul>
+		</div>
+		
+		
+    </div>
+		
+		<div class="bottom">
+			<div class="bottom_a">
+				<img src="../img/品牌文化/logobottom.jpg">
+				<img src="../img/品牌文化/code.jpg" style="margin-top: 50px;">
+				<p><span style="font-size: 20px ">上海束氏茶道有限公司</span><br>
+					上海市浦东新区康杉路108弄3号5楼<br>
+					束氏官网:www.shushichadao.cn<br>
+					天猫旗舰店:shushijj.tmall.com<br>
+					京东旗舰店:shushi.jd.com<br>
+					全国咨询热线:4000-125-129</p>
+
+				<ul>
+					<li><a style="font-size: 14px;" href="">品牌文化</a></li>
+					<li><a href="">品牌介绍</a></li>
+					<li><a href="">创始人介绍</a></li>
+					<li><a href="">集团介绍</a></li>
+					<li><a href="">我们的团队</a></li>
+					<li><a href="">员工培训</a></li>
+					<li><a href="">办公环境</a></li>
+					<li><a href="">品牌荣誉</a></li>
+				</ul>
+				<ul>
+					<li><a style="font-size: 14px;" href="">产品系列</a></li>
+					<li><a href="">经典茶人</a></li>
+					<li><a href="">生活美学</a></li>
+					<li><a href="">禅意生活</a></li>
+					<li><a href="">茶道</a></li>
+					<li><a href="">香道</a></li>
+					<li><a href="">花道</a></li>
+					<li><a href="">佛道</a></li>
+					<li><a href="">礼道</a></li>
+				</ul>
+				<ul>
+					<li><a style="font-size: 14px;" href="">实体连锁店</a></li>
+					<li><a href="">福州会所店</a></li>
+					<li><a href="">沪太店</a></li>
+					<li><a href="">五角场店</a></li>
+					<li><a href="">云溪间会所</a></li>
+					<li><a href="">上海联洋广场旗舰店</a></li>
+					<li><a href="">上海八佰伴店</a></li>
+					<li><a href="">上海虹桥机场店</a></li>
+					<li><a href="">上海御桥店</a></li>
+				</ul>
+			</div>
+			<div class="bottom_b">
+				<p>
+					© 2014-2015 束氏茶道 版权所有
+					<a href="#">品牌合作/联系我们</a>
+					<a href="#">品牌加盟</a>
+					<a href="#">品牌招聘</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

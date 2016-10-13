@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+    <link rel="stylesheet" href="../css/register_style.css">
+    	<script type="text/javascript" src="../js/register.js"></script>
+    	<script type="text/javascript" src="../js/js.KinerCode.js"></script>
+    	<script type="text/javascript" src="../js/code.js"></script>
+    <style>
+        
+    </style>	
+</head>
+<body>
+<div class="top">
+    <img src="../img/登录/logotop.jpg"/>
+    <h3>已有账号<a href="login.html">登录</a></h3>
+</div>
+<div class="register">
+    <table class="table">
+        <tr><th style="width:200px;font-size: 30px;
+    font-family: 微软雅黑;float: left;padding-bottom: 50px;">欢迎注册！</th></tr>
+        <tr>
+            <td id="username">用户名：</td>
+            <td><input id="input1" type="text" value="请输入用户名" name="username" 
+            	onclick="if(value==defaultValue){value='';this.style.color='#000'}"   
+          onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999"/></td>
+            
+            <td ><span id="span1" >*建议使用中文用户名(6-25个字符)</span></td>
+        </tr>
+        <tr><td></td><td id="count" style="display:none;color:#919191;">xx</td></tr>
+        <tr>
+            <td>登录密码：</td>
+            <td><input  id="input2" type="password" value="请设置密码" name="key" 
+            onclick="if(value==defaultValue){value='';this.style.color='#000'}"   
+          onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999"/></td>
+          <td ><span id="span2" >*建议不要使用过于简单的密码(6-16个字符）</span></td>
+        </tr>
+        <tr><td></td><td><em class="active" ></em><em></em><em></em></td></tr>
+        <tr style="line-height:80px;">
+            <td>确认密码：</td>
+            <td><input id="input3" type="password" value="请确认密码" name="conkey" onclick="if(value==defaultValue){value='';this.style.color='#000'}"   
+          onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999"/></td>
+            <td><span id="span3" style="display:none;">*</span></td>
+        </tr>
+        <tr style="line-height:80px;">
+            <td>注册手机号：</td>
+            <td><input id="input4" type="text" value="请输入手机号" name="phone" onclick="if(value==defaultValue){value='';this.style.color='#000'}"   
+          onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999"/></td>
+            <td><span id="span4">*</span></td>
+        </tr>
+        <tr style="line-height:80px;">
+            <td>电子邮箱：</td>
+            <td><input  id="input5" type="text" value="请输入有效邮箱" name="email" onclick="if(value==defaultValue){value='';this.style.color='#000'}"   
+          onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999"/></td>
+            <td><span id="span5">*</span></td>
+        </tr>
+        <tr style="line-height:80px;">
+            <td>验证码：</td>
+            <td><input id="input6" type="text" value="请输入验证码" name="code" onclick="if(value==defaultValue){value='';this.style.color='#000'}"   
+          onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999" style="display: inline-block;"/></td>
+          <td style="width:100px;"><span id="span6" class="mycode"  ></span></td>
+        </tr>
+        <tr>
+        	<td></td>
+        	<td><span id="codemsg" style="width:100px;float: left;"></span></td>
+        </tr>
+        <tr class="text" >
+            <td colspan="2"><input type="button" value="提交注册" name="register" alert="注册成功！"/></td>
+        </tr>
+    </table>
+    
+    
+    <div class="code">
+        <img src="../img/登录/code.jpg" >
+        <p>扫二维码关注</p>
+    </div>
+</div>
+</body>
+</html>
